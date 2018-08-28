@@ -17,7 +17,7 @@ A simple experimental extension to move Elements to other Areas/Pages.
   composer require derralf/elemental-mover
   ```
 
-- Apply extension to BaseElement
+- Apply extension to BaseElement in **mysite/\_config/elements.yml**
   
   ```
   DNADesign\Elemental\Models\BaseElement:

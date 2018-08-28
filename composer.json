@@ -1,6 +1,6 @@
 {
     "name": "derralf/elemental-mover",
-    "description": "A simple experimental extension to move Elements to other Areas/Pages (may not work properly with mutliple Element Areas per Page)",
+    "description": "A simple experimental extension to move Elements to other Areas/Pages (may not work properly with mutliple Element Areas per Page).",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",

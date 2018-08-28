@@ -1,7 +1,7 @@
 # SilverStripe Elemental Mover
 
 A simple experimental extension to move Elements to other Areas/Pages.  
-(private project, no help/support provided)
+(private project, no help/support provided).
 
 ## Requirements
 

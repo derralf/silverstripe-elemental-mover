@@ -33,14 +33,16 @@ class ElementalMoverExtension extends DataExtension
             $area_list = new ArrayList();
             foreach($available_areas as $area) {
                 $ownerPage = $area->getOwnerPage();
-                $area_list->push(new ArrayData(array(
-                    "AreaID" => $area->ID,
-                    "PageMenuTitle" => $ownerPage->MenuTitle,
-                    "PageLink" => $ownerPage->Link(),
-                    "PageSort" => $ownerPage->Sort,
-                    "PageParentSort" => $ownerPage->Parent()->Sort,
-                    "DropdownTitle" => $area->getOwnerPage()->MenuTitle . ' (' . $area->getOwnerPage()->Link() . ')'
-                )));
+                if ($ownerPage) {
+                    $area_list->push(new ArrayData(array(
+                        "AreaID" => $area->ID,
+                        "PageMenuTitle" => $ownerPage->MenuTitle,
+                        "PageLink" => $ownerPage->Link(),
+                        "PageSort" => $ownerPage->Sort,
+                        "PageParentSort" => $ownerPage->Parent()->Sort,
+                        "DropdownTitle" => $area->getOwnerPage()->MenuTitle . ' (' . $area->getOwnerPage()->Link() . ')'
+                    )));
+                }
             }
             $area_list = $area_list->sort(array(
                 'PageParentSort' => 'ASC',

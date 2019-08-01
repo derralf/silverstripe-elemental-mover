@@ -39,5 +39,5 @@ Go to "Expert Settings" tab, select another page and save.
 
 ## Caution
 
-- You will eventally get a "page does not" after moving/saving. I don't know how to prevent this.
+- You will eventally get a "page does not exist" after moving/saving. I don't know how to prevent this. Just select another Page and move on editing over there. 
 - May not work properly with mutliple Element Areas per Page

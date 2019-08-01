@@ -35,7 +35,8 @@ none
 
 ## Usage
 
-Go to "Expert Settings" tab, select another page and save.
+- Go to "Expert Settings" tab, select another page and save.
+- Maybe you have to set "inline_editable: false" for base element in your elements.yml
 
 ## Caution
 

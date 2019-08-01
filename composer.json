@@ -11,13 +11,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "dnadesign/silverstripe-elemental": "3.0.x-dev",
-        "silverstripe/cms": "^4.2",
+        "dnadesign/silverstripe-elemental": "^4@dev",
         "silverstripe/vendor-plugin": "^1.0"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.x-dev"
+            "dev-master": "2.x-dev"
         }
     },
     "autoload": {

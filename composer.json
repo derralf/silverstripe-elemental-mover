@@ -11,8 +11,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "dnadesign/silverstripe-elemental": "^4@dev",
-        "silverstripe/vendor-plugin": "^1.0"
+        "dnadesign/silverstripe-elemental": "^4 || ^5"
     },
     "extra": {
         "branch-alias": {

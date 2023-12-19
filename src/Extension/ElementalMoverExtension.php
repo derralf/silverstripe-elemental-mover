@@ -19,7 +19,7 @@ class ElementalMoverExtension extends DataExtension
         $availableParents = $this->getElementalAreaDropdownMap();
         if($availableParents) {
             $ParentIdDropdown = new DropdownField('TempParentID', _t(__CLASS__.'.AreaDropdownLabel', 'Move to'), $availableParents, $this->owner->ParentID);
-            $fields->addFieldToTab('Root.ExpertSettings', $ParentIdDropdown);
+            $fields->addFieldToTab('Root.Move', $ParentIdDropdown);
         }
         return $fields;
     }

@@ -6,7 +6,7 @@ A simple experimental extension to move Elements to other Areas/Pages.
 ## Requirements
 
 * SilverStripe CMS ^4.3
-* dnadesign/silverstripe-elemental ^4.0
+* dnadesign/silverstripe-elemental ^4 || ^5
 
 For a SilverStripe 4.2 and Elemental 3.x compatible version of this module, please see the [1.x release line](https://github.com/derralf/silverstripe-elemental-mover/tree/1.0#readme).
 

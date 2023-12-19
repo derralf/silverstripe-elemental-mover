@@ -1,3 +1,6 @@
-#---
-#Name: elementalmover
-#---
+---
+Name: elementalmover
+---
+DNADesign\Elemental\Models\BaseElement:
+  extensions:
+    - Derralf\ElementalMover\ElementalMoverExtension

@@ -13,14 +13,12 @@ use SilverStripe\View\ArrayData;
 
 class ElementalMoverExtension extends DataExtension
 {
-    private static $db = [
-    ];
 
     public function updateCMSFields(FieldList $fields)
     {
-        $available_parents = $this->getElementalAreaDropdownMap();
-        if($available_parents) {
-            $ParentIdDropdown = new DropdownField('TempParentID', _t(__CLASS__.'.AreaDropdownLabel', 'Move to'), $available_parents, $this->owner->ParentID);
+        $availableParents = $this->getElementalAreaDropdownMap();
+        if($availableParents) {
+            $ParentIdDropdown = new DropdownField('TempParentID', _t(__CLASS__.'.AreaDropdownLabel', 'Move to'), $availableParents, $this->owner->ParentID);
             $fields->addFieldToTab('Root.ExpertSettings', $ParentIdDropdown);
         }
         return $fields;
